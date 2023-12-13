@@ -1,9 +1,11 @@
 name: Testes Regressivos
 
 on:
-  pull_request:
+pull_request:
+  branches: [ master, release/develop ]
 
 jobs:
+  RunTest:
     runs-on: ubuntu-latest
 
     steps:
