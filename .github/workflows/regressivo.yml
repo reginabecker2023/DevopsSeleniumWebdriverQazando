@@ -2,7 +2,9 @@ name: Testes Regressivos
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ master, release/develop ]
+  schedule:
+    - cron: '*/15 * * * 1-5'
 
 jobs:
   RunTest:
