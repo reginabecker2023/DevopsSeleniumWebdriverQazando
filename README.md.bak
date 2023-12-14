@@ -1,7 +1,12 @@
+
 # SeleniumWebdriverQazandoBase
+
 Projeto base de Selenium Webdriver e Java da @qazando.
 
+
+
 ## O que preciso?
+
 
 ```bash
   - Java 8 ou 11
@@ -9,6 +14,7 @@ Projeto base de Selenium Webdriver e Java da @qazando.
   - Drivers na raiz do projeto (Chomedriver na mesma versão do navegador)
   - IntelliJ IDEA (Versão comunity mesmo)
 ```
+
 
 ## To Run
 
